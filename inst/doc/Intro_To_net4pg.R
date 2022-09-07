@@ -1,5 +1,5 @@
 ## ----setup, include = FALSE---------------------------------------------------
-knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>", fig.width = 10, fig.height = 10)
 
 ## ----style, echo = FALSE, results = 'asis'------------------------------------
 BiocStyle::markdown()

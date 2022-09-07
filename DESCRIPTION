@@ -1,19 +1,19 @@
 Package: net4pg
 Title: Handle Ambiguity of Protein Identifications from Shotgun
         Proteomics
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     c(person(given = "Laura",
              family = "Fancello",
              role = c("aut", "cre"),
-             email = "laura.fancello@cea.fr",
+             email = "laura.fancello@gmail.com",
              comment = c(ORCID = "0000-0003-4708-4080")),
       person(given = "Thomas",
              family = "Burger",
              role = c("aut", "ctb"),
              email = "thomas.burger@cea.fr",
              comment = c(ORCID = "0000-0003-3539-3564")))
-Maintainer: Laura Fancello <laura.fancello@cea.fr>
+Maintainer: Laura Fancello <laura.fancello@gmail.com>
 Description: In shotgun proteomics, shared peptides (i.e., peptides that might 
     originate from different proteins sharing homology, from different 
     proteoforms due to alternative mRNA splicing, post-translational 
@@ -46,7 +46,7 @@ Description: In shotgun proteomics, shared peptides (i.e., peptides that might
     components. As such, it constitutes a reproducible and transparent
     method to exploit transcriptome information to enhance protein
     identifications. All methods implemented in the 'net4pg' package are fully 
-    described in Fancello and Burger (2021) <doi:10.1101/2021.09.07.459229>.
+    described in Fancello and Burger (2022) <doi:10.1186/s13059-022-02701-2>.
 License: GPL-3
 URL: https://github.com/laurafancello/net4pg
 BugReports: https://github.com/laurafancello/net4pg/issues
@@ -57,10 +57,10 @@ Suggests: BiocStyle, ggplot2, igraph, knitr, rmarkdown, roxygen2,
 VignetteBuilder: knitr
 Config/testthat/edition: 3
 Encoding: UTF-8
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.1
 NeedsCompilation: no
-Packaged: 2021-09-20 07:41:38 UTC; rstudio
+Packaged: 2022-09-07 07:30:16 UTC; laura
 Author: Laura Fancello [aut, cre] (<https://orcid.org/0000-0003-4708-4080>),
   Thomas Burger [aut, ctb] (<https://orcid.org/0000-0003-3539-3564>)
 Repository: CRAN
-Date/Publication: 2021-09-20 15:20:02 UTC
+Date/Publication: 2022-09-07 09:50:02 UTC
